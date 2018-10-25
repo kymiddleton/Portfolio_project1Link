@@ -1,5 +1,5 @@
 body {
-    background-image: url("bckgrnd.png");
+    background-image: url("images/bckgrnd.png");
     background-size: cover;
     background-repeat: repeat;
     padding-top: 100px;
@@ -39,7 +39,7 @@ body {
     margin-left: 20px;
 }
 
-top {
+.top {
     font-family: 'Josefin Sans', sans-serif;
     color: #333333; 
 }
@@ -96,41 +96,35 @@ main {
 }
 
 .box {
-    display: grid;
+    /* display: grid; */
     height: 100%;
     grid-row: span 1;
     grid-column: span 1;
 }
 
 .a {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    max-height: 200px;
-    /* vertical-align: middle; */
-    padding-top: 146px;
-    background: url("Roladex1.jpg");
+    background: url("images/Roladex1.jpg");
 }
 
 .b {
-    background: url("Portfolio_2.jpeg");
+    background: url("images/Momentum_Morning_2.jpeg");
 }
    
 .c {
-    background: url("Portfolio_3.jpg");
+    background: url("images/Portfolio_3.jpg");
+    /* background: url("images/Roladex1.jpg"); */
 }
 
 .d {
-    background: url("Portfolio_1.jpeg");
+    background: url("images/Portfolio_1.jpeg");
 }
 
 .e {
-    background: url("Portfolio_2.jpeg");
+    background: url("images/Portfolio_2.jpeg");
 }
 
 .f {
-    background: url("Portfolio_3.jpg");
+    background: url("images/Portfolio_3.jpg");
 }
 
 .image {
@@ -140,6 +134,13 @@ main {
     background-size: cover;
     position: relative;
     border-top: 2px dotted black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-height: 220px;
+    /* vertical-align: middle; */
+    padding-top: 146px;
 }
 
 footer {
@@ -161,6 +162,7 @@ footer {
         padding-left: 100px;
         padding-right: 100px;
     }
+
     .nav {
         position: relative;
         top: -80px;
@@ -174,7 +176,7 @@ footer {
         margin-left: 0px;
     }
 
-    top {
+    .top {
         margin: 10px;
     }
 
@@ -185,16 +187,33 @@ footer {
         z-index: 2;
     }
 
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 35px;
+        line-height: 1.5;
+        margin-top: 30px;
+    }
+    
+    h4 {
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        padding-left: 5px;
+    }
+
     main {
         display: grid;
+        /* background-size: 100% 80%; */
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(3, 1fr);
         margin-top: 80px;
         margin-bottom: 80px;
+        /* grid-gap: 5px; */
     }
 
     .image {
         height: 350px; 
+        /* display: grid; */
+        /* width: 85%; */
+        /* vertical-align: middle; */
     }
-    
 }
