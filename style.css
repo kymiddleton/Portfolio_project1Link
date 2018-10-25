@@ -195,25 +195,18 @@ footer {
     }
     
     h4 {
-        /* padding-top: 10px; */
-        /* padding-bottom: 10px; */
         padding-left: 5px;
     }
 
     main {
         display: grid;
-        /* background-size: 100% 80%; */
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(3, 1fr);
         margin-top: 80px;
         margin-bottom: 80px;
-        /* grid-gap: 5px; */
     }
 
     .image {
         height: 350px; 
-        /* display: grid; */
-        /* width: 85%; */
-        /* vertical-align: middle; */
     }
 }
