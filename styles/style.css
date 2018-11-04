@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/bckgrnd.png");
+    background-image: url("../assets/bckgrnd.png");
     background-size: cover;
     background-repeat: repeat;
     padding-top: 100px;
@@ -103,28 +103,27 @@ main {
 }
 
 .a {
-    background: url("images/Roladex1.jpg");
+    background: url("../images/Minimalist Directory.jpeg");
 }
 
 .b {
-    background: url("images/Momentum_Morning_2.jpeg");
+    background: url("../images/Momentum_Morning_2.jpeg");
 }
    
 .c {
-    background: url("images/Portfolio_3.jpg");
-    /* background: url("images/Roladex1.jpg"); */
+    background: url("../images/Portfolio_3.jpg");
 }
 
 .d {
-    background: url("images/Portfolio_1.jpeg");
+    background: url("../images/Portfolio_1.jpeg");
 }
 
 .e {
-    background: url("images/Portfolio_2.jpeg");
+    background: url("../images/Portfolio_2.jpeg");
 }
 
 .f {
-    background: url("images/Portfolio_3.jpg");
+    background: url("../images/Portfolio_3.jpg");
 }
 
 .image {
@@ -139,7 +138,6 @@ main {
     margin-right: auto;
     width: 95%;
     max-height: 220px;
-    /* vertical-align: middle; */
     padding-top: 146px;
 }
 
